@@ -13,7 +13,7 @@ var fest_day2 = 'Stigmata, Amatory and Slaughter to Prevail'
 var fest_day3 = 'Zmey Gorynich, Wildways and Teufelstanz'
 
 console.log('On the first day of the festival, I was lucky to watch bands ' + fest_day1 + ".")
-console.log('Then I watched the bands ' + fest_day2 + ', on the second day and it cost me ' + (priceStigmata + priceAmatory + priceSlaughter) + '€ in total that day.')
+console.log('Then I watched the bands ' + fest_day2 + ' on the second day and it cost me ' + (priceStigmata + priceAmatory + priceSlaughter) + '€ in total that day.')
 console.log('I was a bit tired on the third day but it was so much worth it to watch the bands ' + fest_day3 + ' and I spent ' + (priceZmey + priceWildways + priceTeufelstanz) + '€ for the three days of the festival.')
 
 var totalPrice = priceAmatory + priceArkona + priceLouna + priceSlaughter + priceStigmata + priceTeufelstanz + priceWildways + priceWoodscream + priceZmey
