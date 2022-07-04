@@ -6,7 +6,7 @@
                 
                 .hero {
                     &-image {
-                        background-image: url(../img/background.jpg);
+                        background-image: url(https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
                         background-size: cover;
                         height: 60vh;
                         width: 100%;
@@ -18,11 +18,13 @@
                     &-heading-item {
                         font-size: 400%;
                         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        color: #fff;
                     }
                     &-icons {
                         display: flex;
                         justify-content: space-around;
                         padding: 15px;
+                        color: #fff;
                     }
                     &-text-item {
                         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -57,8 +59,8 @@
                         color: #fff;
                         display: flex;
                         max-width: 150px;
-                        justify-content: center;
-                        align-items: center;
+                        justify-content: flex-start;
+                        align-items: flex-start;
                         transition: all 0.2s linear;
                         &:hover {
                             background: rgb(70, 44, 187);
@@ -123,6 +125,13 @@
                             height: 100%;
                             object-fit: cover;
                         }
+                    }
+                }
+                
+                @media screen and (max-width:480px) {
+                    input,
+                    textarea {
+                        width: 50vw;
                     }
                 }
                 
