@@ -1,5 +1,4 @@
                 * {
-                    margin: 0;
                     box-sizing: border-box;
                     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                 }
@@ -36,15 +35,7 @@
                     }
                 }
                 
-                .container {
-                    max-width: 1300px;
-                    width: 100%;
-                    padding: 0 15px;
-                    margin: 0 auto;
-                }
-                
                 .cards {
-                    margin-bottom: 50px;
                     &-box {
                         display: grid;
                         grid-template-columns: repeat(3, 1fr);
@@ -139,7 +130,7 @@
                     background-color: black;
                     text-align: center;
                     color: white;
-                    overflow: hidden;
+                    // overflow: hidden;
                     padding: 10px;
                     .copyright {
                         margin: 0;
@@ -154,7 +145,6 @@
                         margin: 0 auto;
                     }
                     .cards {
-                        margin-bottom: 50px;
                         &-box {
                             display: grid;
                             grid-template-columns: 1fr;
@@ -274,7 +264,6 @@
                         margin: 0 auto;
                     }
                     .cards {
-                        margin-bottom: 50px;
                         &-box {
                             display: grid;
                             grid-template-columns: repeat(2, 1fr);
