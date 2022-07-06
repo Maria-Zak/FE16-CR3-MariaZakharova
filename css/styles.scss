@@ -5,8 +5,9 @@
                 
                 .hero {
                     &-image {
-                        background-image: url(https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+                        background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_1280.jpg);
                         background-size: cover;
+                        background-position: bottom center;
                         height: 60vh;
                         width: 100%;
                         display: flex;
